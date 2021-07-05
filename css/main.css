@@ -1,0 +1,34 @@
+/*
+    CSS rules to specify families
+
+    Titulos:
+    font-family: 'EB Garamond', serif;
+    Corpo:
+    font-family: 'Cormorant Garamond', serif;
+*/
+
+#navbar {
+    background-color: #AA51D4;
+    border-bottom: #8937BF solid;
+}
+
+#tituloHM {
+    line-height: 1;
+    font-family: 'EB Garamond', serif;
+    color: black;
+}
+
+#logoHM {
+    width: 50px;
+    fill: red;
+}
+
+#radionavbar .btn {
+    border: none;
+}
+
+#redatorheadline {
+    background-color: #DD7EFA;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
