@@ -2,7 +2,6 @@
 <html lang="pt">
 
 <head>
-    <!-- <img id="logoHM" src="./icon/HM.png" class="" alt="..."> -->
 
     <!--  Bare Minimun -->
     <meta charset="UTF-8">
@@ -19,23 +18,41 @@
     <meta property="og:site_name" content="Helena Redatora">
     <meta name="twitter:image:alt" content="Helena Redatora">
     <!--  Links -->
-    <link rel="icon" href="./icon/HM.png" type="imagem/png" />
     <link rel="stylesheet" href="./css/bootstrap.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./icon/favicon-16x16.png">
+    <link rel="manifest" href="./icon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./icon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=EB+Garamond&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Courgette&family=EB+Garamond&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-    <section>
+
+    <section id="navegation-bar">
         <div id="navbar" class="container-fluid px-3 shadow-lg">
             <header class=" d-flex flex-wrap align-items-center justify-content-center justify-content-md-around py-4">
                 <div class="  border-dark d-flex align-items-center col-md-2 mb-2 mb-md-0 text-dark text-decoration-none">
-                    <img id="logoHM" class="bi me-2" src="./icon/hmlogoempty.svg" alt="">
+                    <img id="logoHM" class="bi me-2" src="./img/hmlogoempty.svg" alt="">
                     <span id="tituloHM" class="fs-3">Helena Redatora</span>
                 </div>
 
@@ -48,30 +65,27 @@
                         </div>
                         <div>
                             <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-                            <label class="btn btn-outline-dark" for="btnradio2">Portifólio</label>
+                            <label class="btn btn-outline-dark" for="btnradio2">Preços</label>
                         </div>
                         <div>
                             <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
-                            <label class="btn btn-outline-dark" for="btnradio3">Preços</label>
+                            <label class="btn btn-outline-dark" for="btnradio3">Livros</label>
                         </div>
                         <div>
                             <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
-                            <label class="btn btn-outline-dark" for="btnradio4">Livros</label>
-                        </div>
-                        <div>
-                            <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off">
-                            <label class="btn btn-outline-dark" for="btnradio5">Sobre mim</label>
+                            <label class="btn btn-outline-dark" for="btnradio4">Sobre mim</label>
                         </div>
                     </div>
                 </ul>
 
                 <div class="col-md-2 text-end">
-                    <button type="button" class="btn btn-danger text-dark me-2">Ruinas do Medo</button>
+                    <button id="btnruinasdomedo" type="button" class="btn btn-danger border-dark text-dark me-2">Ruinas do Medo</button>
                 </div>
             </header>
         </div>
     </section>
-    <section>
+
+    <section id="content-home">
         <div id="redatorheadline" class="container-fluid text-center">
             <div class="col-md-5 p-lg-5 mx-auto">
                 <h1 class="display-4 font-weight-normal">Bem vindo</h1>
@@ -81,7 +95,9 @@
         </div>
     </section>
 
+    <section id="footer">
 
+    </section>
 </body>
 
 </html>

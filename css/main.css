@@ -3,9 +3,17 @@
 
     Titulos:
     font-family: 'EB Garamond', serif;
+
     Corpo:
     font-family: 'Cormorant Garamond', serif;
+
+    Extra:
+    font-family: 'Courgette', cursive;
 */
+
+body {
+    color: black;
+}
 
 #navbar {
     background-color: #AA51D4;
@@ -20,7 +28,11 @@
 
 #logoHM {
     width: 50px;
-    fill: red;
+}
+
+#btnruinasdomedo {
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
 }
 
 #radionavbar .btn {
@@ -31,4 +43,5 @@
     background-color: #DD7EFA;
     padding-top: 6rem;
     padding-bottom: 6rem;
+    border-bottom: solid;
 }
