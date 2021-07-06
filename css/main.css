@@ -40,13 +40,14 @@ body {
 }
 
 #redatorheadline {
-    background-position: center right;
+    background-size: cover;
+    background-position: center top;
     background-image: url("../img/handbooklaptopmed.jpg");
     background-color: rgba(222, 127, 250, 0.7);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
     border-bottom: solid;
 }
