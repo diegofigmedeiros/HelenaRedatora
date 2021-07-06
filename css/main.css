@@ -40,7 +40,6 @@ body {
 }
 
 #redatorheadline {
-    background-size: cover;
     background-position: center right;
     background-image: url("../img/handbooklaptopmed.jpg");
     background-color: rgba(222, 127, 250, 0.7);
