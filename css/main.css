@@ -42,10 +42,11 @@ body {
 #redatorheadline {
     background-size: cover;
     background-position: center right;
-    background-image: url("../img/handbooklaptop.jpg");
+    background-image: url("../img/handbooklaptopmed.jpg");
     background-color: rgba(222, 127, 250, 0.7);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     padding-top: 8rem;
     padding-bottom: 8rem;
     border-bottom: solid;
