@@ -1,53 +1,53 @@
 /*
-    CSS rules to specify families
+	CSS rules to specify families
 
-    Titulos:
-    font-family: 'EB Garamond', serif;
+	Titulos:
+	font-family: 'EB Garamond', serif;
 
-    Corpo:
-    font-family: 'Cormorant Garamond', serif;
+	Corpo:
+	font-family: 'Cormorant Garamond', serif;
 
-    Extra:
-    font-family: 'Courgette', cursive;
+	Extra:
+	font-family: 'Courgette', cursive;
 */
 
 body {
-    color: black;
+	color: black;
 }
 
 #navbar {
-    background-color: #AA51D4;
-    border-bottom: #8937BF solid;
+	background-color: #AA51D4;
+	border-bottom: #8937BF solid;
 }
 
 #tituloHM {
-    line-height: 1;
-    font-family: 'EB Garamond', serif;
-    color: black;
+	line-height: 1;
+	font-family: 'EB Garamond', serif;
+	color: black;
 }
 
 #logoHM {
-    width: 50px;
+	width: 50px;
 }
 
 #btnruinasdomedo {
-    font-family: 'Courgette', cursive;
-    font-size: 20px;
+	font-family: 'Courgette', cursive;
+	font-size: 20px;
 }
 
 #radionavbar .btn {
-    border: none;
+	border: none;
 }
 
 #redatorheadline {
-    background-size: cover;
-    background-position: center top;
-    background-image: url("../img/handbooklaptopmed.jpg");
-    background-color: rgba(222, 127, 250, 0.7);
-    background-blend-mode: multiply;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-    border-bottom: solid;
+	background-size: cover;
+	background-position: center top;
+	background-image: url("../img/handbooklaptopmed.jpg");
+	background-color: rgba(222, 127, 250, 0.7);
+	background-blend-mode: multiply;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+	border-bottom: solid;
 }
